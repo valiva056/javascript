@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.background{
+    background: color #f8f8f8;;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    /* border: 2px solid; */
+    background-color:black;
+    border-radius: 10px;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+    color: #f8f8f8;
+    font-size: 25px;
+
+}
+.screen-content{
+    /* border: 2px solid; */
+    height: 100px;
+    width: 450px;
+    color:black;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    display: flex;
+    align-items: end;
+    padding-right: 10px;
+    justify-content: right;
+    font-size: 50px;
+    margin-bottom: 20px;
+
+}
+.key-values{
+    /* border: 2px solid; */
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,1fr);
+    height: 300px;
+    width: 450px;
+    display: grid;
+    gap: 10px;
+}
+.btn{
+    border-style: none;
+    border-radius: 10px;
+    cursor:pointer;
+    background-color:rgb(74, 74, 74);
+    color: #f9f9f9;
+    font-size: 30px;
+
+}
+.btnc{
+    border-style: none;
+    border-radius: 10px;
+    font-size: 30px;
+    color: #f8f8f8;
+    background-color: red;
+    cursor: pointer;
+}
+.btne{
+    border-style: none;
+    border-radius: 10px;
+    grid-area: 5/1/6/5;
+    cursor: pointer;
+
+}
